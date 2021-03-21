@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.container{
+    min-height: 100vh;
+}
+.meal-wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+}
+.title{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+.meal-search{
+    margin: 2rem auto;
+}
+.meal-search-box{
+    margin: 1.2rem 0;
+    display: flex;
+    justify-content: center;
+}
+.search-cntrl{
+    padding: 0 1rem;
+    font-size: 1.1rem;
+    outline: none;
+    border: none;
+    background-color: #f3f3f3;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.button{
+    cursor: pointer;
+    outline: none;
+    font-size: 20px;
+    background-color: tomato;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    width: 105px;
+    height: 50px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.meal-result{
+    margin-top: 5rem;
+}
+#meal{
+    margin: 3rem 0;
+}
+.meal-iteam{
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.meal-img img{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+.meal-img h3{
+    font-size: 1.4rem;
+}
